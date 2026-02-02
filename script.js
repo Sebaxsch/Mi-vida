@@ -54,16 +54,6 @@ for(let i=0;i<30;i++){
   document.body.appendChild(h);
 }
 
-for(let i=0;i<50;i++){
-  const p = document.createElement('div');
-  p.classList.add('particle');
-  p.style.left = Math.random() * window.innerWidth + 'px';
-  p.style.top = Math.random() * window.innerHeight + 'px';
-  p.style.width = p.style.height = (1 + Math.random()*3) + 'px';
-  p.style.animationDuration = (5 + Math.random()*10) + 's';
-  document.body.appendChild(p);
-}
-
 for (let i = 0; i < 40; i++) {
   const h = document.createElement('div');
   h.classList.add('heartBg');
@@ -76,6 +66,18 @@ for (let i = 0; i < 40; i++) {
 
   document.body.appendChild(h);
 }
+
+for(let i=0;i<50;i++){
+  const p = document.createElement('div');
+  p.classList.add('particle');
+  p.style.left = Math.random() * window.innerWidth + 'px';
+  p.style.top = Math.random() * window.innerHeight + 'px';
+  p.style.width = p.style.height = (1 + Math.random()*3) + 'px';
+  p.style.animationDuration = (5 + Math.random()*10) + 's';
+  document.body.appendChild(p);
+}
+
+
 
 for (let i = 0; i < 60; i++) {
   const p = document.createElement('div');
@@ -90,6 +92,30 @@ for (let i = 0; i < 60; i++) {
   p.style.animationDuration = (5 + Math.random() * 10) + 's';
 
   document.body.appendChild(p);
+}
+
+for(let i=0;i<30;i++){
+  const h = document.createElement('div');
+  h.classList.add('love');
+  h.innerHTML = '❤';
+  h.style.left = Math.random()*window.innerWidth + 'px';
+  h.style.top = Math.random()*window.innerHeight + 'px';
+  h.style.fontSize = (5 + Math.random()*20) + 'px';
+  h.style.animationDuration = (2 + Math.random()*4) + 's';
+  document.body.appendChild(h);
+}
+
+for (let i = 0; i < 40; i++) {
+  const h = document.createElement('div');
+  h.classList.add('love');
+  h.innerHTML = '❤';
+
+  h.style.left = Math.random() * window.innerWidth + 'px';
+  h.style.top = Math.random() * document.body.scrollHeight + 'px';
+  h.style.fontSize = (6 + Math.random() * 14) + 'px';
+  h.style.animationDuration = (2 + Math.random() * 4) + 's';
+
+  document.body.appendChild(h);
 }
 
 

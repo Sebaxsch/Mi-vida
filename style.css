@@ -2,16 +2,9 @@
 body {
   background: linear-gradient(135deg, #0B0C2A, #0B0C2A,#FFFF);
   color: white;
-  font-family:'Libre Baskerville', serif;
+  font-family:'Pacifico',cursive;
   text-align: center;
   padding: 50px;
-}
-
-@media (max-width: 600px) {
-  .texto {
-    font-size: 1.05rem;
-    line-height: 1.8;
-  }
 }
 
 #contenido {
@@ -107,6 +100,21 @@ h1 {
   0% { transform: translate(0,0); }
   50% { transform: translate(-20%, -10%); }
   100% { transform: translate(0,0); }
+}
+
+.love {
+  position: absolute;
+  font-size: 10px;
+  color: #0026ff;
+  opacity: 0.5;
+  animation: blink 3s infinite alternate;
+  z-index: 2;
+}
+
+@keyframes blink {
+  0% { opacity: 0.2; }
+  50% { opacity: 0.7; }
+  100% { opacity: 0.2; }
 }
 
 
