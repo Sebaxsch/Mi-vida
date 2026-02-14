@@ -9,7 +9,7 @@ setInterval(createHeart, 1); // un corazón cada 0.3s
 
 
 // 👉 CAMBIA AQUÍ SU NOMBRE
-const nombre = "mi Emily";
+const nombre = "Emily";
 
 const saludo = document.getElementById("saludo");
 
@@ -117,5 +117,6 @@ for (let i = 0; i < 40; i++) {
 
   document.body.appendChild(h);
 }
+
 
 
